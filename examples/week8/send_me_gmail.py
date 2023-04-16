@@ -22,12 +22,13 @@ import smtplib
 from dotenv import load_dotenv
 import os
 
+load_dotenv()  # take environment variables from .env file
+MY_GMAIL_ADDRESS = os.getenv('MY_GMAIL_ADDRESS')
+GMAIL_PASSWORD = os.getenv('GMAIL_PASSWORD') # 16-digit app-password
 smtp_port = 465  # For SSL
 smtp_server = 'smtp.gmail.com'
-sender_email = 'tohare02@northshore.edu'  # Enter your address
-receiver_email = 'tohare02@northshore.edu' # Enter receiver address
-load_dotenv()  # take environment variables from .env file
-GMAIL_PASSWORD = os.getenv('GMAIL_PASSWORD') # 16-digit app-password
+sender_email = MY_GMAIL_ADDRESS  # Enter your address
+receiver_email = MY_GMAIL_ADDRESS # Enter receiver address
 
 def send(subject, content):
     msg = EmailMessage()
