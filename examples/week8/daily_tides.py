@@ -20,7 +20,6 @@ url_tides_txt = ('https://tidesandcurrents.noaa.gov/cgi-bin/predictiondownload.c
 
 with urllib.request.urlopen(url_tides_txt) as response:
    content = response.read().decode('utf-8')
-   print(content)
 
 today = today.strftime('%b %d %Y')
-gmail.send(f'Daily Tide Schedule {today}', content)
+gmail.send(f'Daily Tide Schedule {today}', '<pre>' + content + '</pre>')

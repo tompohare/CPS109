@@ -32,7 +32,7 @@ receiver_email = MY_GMAIL_ADDRESS # Enter receiver address
 
 def send(subject, content):
     msg = EmailMessage()
-    msg.set_content(content, 'html') # message body in HTML format
+    msg.set_content(content, 'html')
     msg['From'] = sender_email
     msg['To'] = receiver_email
     msg['Subject'] = subject
