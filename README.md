@@ -29,3 +29,5 @@ See [course catalog](https://www.northshore.edu/courses/) for more details.
 
 ## Week 8
 
+* [Daily Tide Schedule](examples/week8/daily_tides.py) - Fetch and email the daily ocean tide schedule
+* [Send Email](examples/week8/send_me_gmail.py) - Send an email using your Gmail account
