@@ -29,7 +29,12 @@ See [course catalog](https://www.northshore.edu/courses/) for more details.
 
 ## Week 5
 
+* [Compound interest calculator](examples/week5/compound_interest.py) - Compound interest rate calculator
+
 ## Week 6
+
+* [Compound interest rate calculator](examples/week6/compound_interest_calculator.ipynb) - IMPROVED! Compound interest rate calculator in Jupyter Notebook format
+* [College Basketball Safe Lead Calculator](examples/week6/basketball_lead.py) - Bill James' College Basketball Safe Lead Calculator
 
 ## Week 7
 
