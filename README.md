@@ -47,3 +47,6 @@ See [course catalog](https://www.northshore.edu/courses/) for more details.
 
 * [Daily Tide Schedule](examples/week8/daily_tides.py) - Fetch and email the daily ocean tide schedule
 * [Send Email](examples/week8/send_me_gmail.py) - Send an email using your Gmail account
+
+## Text Analysis
+* [Word Analysis](examples/text_analysis/) - Analyzes words from a file making use of Python's built-in dictionary data type
